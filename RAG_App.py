@@ -24,7 +24,7 @@ groq_api_key = st.secrets["GROQ_API_KEY"]
 
 # ------------------ UI ------------------
 st.set_page_config(page_title="Dynamic RAG with Groq", layout="wide")
-st.image("")
+st.image("images.jpg")
 from dotenv import load_dotenv
 import os
 import time
